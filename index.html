@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Igor Guimarães | Article preview component</title>
+
+</head>
+<body>
+
+  <main>
+
+  <img id="main-image" src="./images/drawers.jpg" alt="drawers">
+
+  <div class="main__container">
+  <div class="main-text">
+  <h4 class="title"> Shift the overall look and feel by adding these wonderful 
+  touches to furniture in your home</h4>
+
+  <p class="text"> Ever been in a room and felt like something was missing? Perhaps 
+  it felt slightly bare and uninviting. I’ve got some simple tips 
+  to help you make any room feel complete.</p>
+  </div>
+
+  <div class="container">
+    <div class="container__author">
+      <img class="author-image" src="./images/avatar-michelle.jpg" alt="author-michelle">
+      <div class="author-text">
+        <p class="author-name">Michelle Appleton</p>
+        <p class="date">28 Jun 2020</p>
+      </div>
+    </div>
+    <input class="not" id="share-btn" type="checkbox">
+    <label for="share-btn" id="share-label" class="share-label not"><img id="share-icon" class="share-icon not" src="./images/icon-share.svg" alt="share-icon"></label>
+  </div>
+  </div>
+
+  <div class="wrapper hide">
+    <div class="wrapper__left">
+      <p class="share-text">Share</p>
+      <a class="share-a" href="#"><img src="./images/icon-facebook.svg" alt="facebook-icon"></a>
+      <a class="share-a" href="#"><img src="./images/icon-twitter.svg" alt="twitter-icon"></a>
+      <a class="share-a" href="#"><img src="./images/icon-pinterest.svg" alt="pinterest-icon"></a>
+    </div>
+    <input id="share-btn-active" type="checkbox">
+    <label for="share-btn-active" id="share-label-active" class="share-label-active"><img id="share-icon-active" class="share-icon-active" src="./images/icon-share.svg" alt="share-icon-active"></label>
+    <span class="triangle"></span>
+  </div>
+  
+  </main>
+
+  <footer>
+  <div class="attribution">
+    Coded by <a class="me" href="https://github.com/IgorGGuimaraes">Igor Guimarães</a>.
+  </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
